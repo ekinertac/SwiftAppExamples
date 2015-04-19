@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3E60618A-881F-4736-97DF-12B642D6046A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CalcPlus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3CDF6494F0CE133296E3D2D98CD404C255B2F660</key>
+		<string>https://github.com/ekinertac/SwiftAppExamples</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CalcPlus/CalcPlus.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3CDF6494F0CE133296E3D2D98CD404C255B2F660</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ekinertac/SwiftAppExamples</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3CDF6494F0CE133296E3D2D98CD404C255B2F660</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3CDF6494F0CE133296E3D2D98CD404C255B2F660</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftAppExamples</string>
+		</dict>
+	</array>
+</dict>
+</plist>
