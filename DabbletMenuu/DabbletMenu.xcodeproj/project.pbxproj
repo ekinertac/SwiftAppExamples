@@ -13,6 +13,7 @@
 		4711F7A91AEC2ED900264433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4711F7A81AEC2ED900264433 /* Images.xcassets */; };
 		4711F7AC1AEC2EDA00264433 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4711F7AA1AEC2EDA00264433 /* LaunchScreen.xib */; };
 		4711F7B81AEC2EDA00264433 /* DabbletMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711F7B71AEC2EDA00264433 /* DabbletMenuTests.swift */; };
+		A64F5B0D1AECEC2800DFEEFE /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64F5B0C1AECEC2800DFEEFE /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4711F7B11AEC2EDA00264433 /* DabbletMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DabbletMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4711F7B61AEC2EDA00264433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4711F7B71AEC2EDA00264433 /* DabbletMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DabbletMenuTests.swift; sourceTree = "<group>"; };
+		A64F5B0C1AECEC2800DFEEFE /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4711F7A81AEC2ED900264433 /* Images.xcassets */,
 				4711F7AA1AEC2EDA00264433 /* LaunchScreen.xib */,
 				4711F79F1AEC2ED900264433 /* Supporting Files */,
+				A64F5B0C1AECEC2800DFEEFE /* MyTableViewCell.swift */,
 			);
 			path = DabbletMenu;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				4711F7A41AEC2ED900264433 /* ViewController.swift in Sources */,
 				4711F7A21AEC2ED900264433 /* AppDelegate.swift in Sources */,
+				A64F5B0D1AECEC2800DFEEFE /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				4711F7BD1AEC2EDA00264433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4711F7BE1AEC2EDA00264433 /* Build configuration list for PBXNativeTarget "DabbletMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				4711F7C01AEC2EDA00264433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
