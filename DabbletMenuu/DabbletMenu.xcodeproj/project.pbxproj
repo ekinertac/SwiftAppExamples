@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4711F7A21AEC2ED900264433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711F7A11AEC2ED900264433 /* AppDelegate.swift */; };
+		4711F7A41AEC2ED900264433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711F7A31AEC2ED900264433 /* ViewController.swift */; };
+		4711F7A71AEC2ED900264433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4711F7A51AEC2ED900264433 /* Main.storyboard */; };
+		4711F7A91AEC2ED900264433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4711F7A81AEC2ED900264433 /* Images.xcassets */; };
+		4711F7AC1AEC2EDA00264433 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4711F7AA1AEC2EDA00264433 /* LaunchScreen.xib */; };
+		4711F7B81AEC2EDA00264433 /* DabbletMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711F7B71AEC2EDA00264433 /* DabbletMenuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4711F7B21AEC2EDA00264433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4711F7941AEC2ED900264433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4711F79B1AEC2ED900264433;
+			remoteInfo = DabbletMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4711F79C1AEC2ED900264433 /* DabbletMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DabbletMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4711F7A01AEC2ED900264433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4711F7A11AEC2ED900264433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4711F7A31AEC2ED900264433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4711F7A61AEC2ED900264433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4711F7A81AEC2ED900264433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4711F7AB1AEC2EDA00264433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4711F7B11AEC2EDA00264433 /* DabbletMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DabbletMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4711F7B61AEC2EDA00264433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4711F7B71AEC2EDA00264433 /* DabbletMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DabbletMenuTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4711F7991AEC2ED900264433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4711F7AE1AEC2EDA00264433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4711F7931AEC2ED900264433 = {
+			isa = PBXGroup;
+			children = (
+				4711F79E1AEC2ED900264433 /* DabbletMenu */,
+				4711F7B41AEC2EDA00264433 /* DabbletMenuTests */,
+				4711F79D1AEC2ED900264433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4711F79D1AEC2ED900264433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4711F79C1AEC2ED900264433 /* DabbletMenu.app */,
+				4711F7B11AEC2EDA00264433 /* DabbletMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4711F79E1AEC2ED900264433 /* DabbletMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4711F7A11AEC2ED900264433 /* AppDelegate.swift */,
+				4711F7A31AEC2ED900264433 /* ViewController.swift */,
+				4711F7A51AEC2ED900264433 /* Main.storyboard */,
+				4711F7A81AEC2ED900264433 /* Images.xcassets */,
+				4711F7AA1AEC2EDA00264433 /* LaunchScreen.xib */,
+				4711F79F1AEC2ED900264433 /* Supporting Files */,
+			);
+			path = DabbletMenu;
+			sourceTree = "<group>";
+		};
+		4711F79F1AEC2ED900264433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4711F7A01AEC2ED900264433 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4711F7B41AEC2EDA00264433 /* DabbletMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				4711F7B71AEC2EDA00264433 /* DabbletMenuTests.swift */,
+				4711F7B51AEC2EDA00264433 /* Supporting Files */,
+			);
+			path = DabbletMenuTests;
+			sourceTree = "<group>";
+		};
+		4711F7B51AEC2EDA00264433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4711F7B61AEC2EDA00264433 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4711F79B1AEC2ED900264433 /* DabbletMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4711F7BB1AEC2EDA00264433 /* Build configuration list for PBXNativeTarget "DabbletMenu" */;
+			buildPhases = (
+				4711F7981AEC2ED900264433 /* Sources */,
+				4711F7991AEC2ED900264433 /* Frameworks */,
+				4711F79A1AEC2ED900264433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DabbletMenu;
+			productName = DabbletMenu;
+			productReference = 4711F79C1AEC2ED900264433 /* DabbletMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4711F7B01AEC2EDA00264433 /* DabbletMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4711F7BE1AEC2EDA00264433 /* Build configuration list for PBXNativeTarget "DabbletMenuTests" */;
+			buildPhases = (
+				4711F7AD1AEC2EDA00264433 /* Sources */,
+				4711F7AE1AEC2EDA00264433 /* Frameworks */,
+				4711F7AF1AEC2EDA00264433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4711F7B31AEC2EDA00264433 /* PBXTargetDependency */,
+			);
+			name = DabbletMenuTests;
+			productName = DabbletMenuTests;
+			productReference = 4711F7B11AEC2EDA00264433 /* DabbletMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4711F7941AEC2ED900264433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ekin Ertac";
+				TargetAttributes = {
+					4711F79B1AEC2ED900264433 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4711F7B01AEC2EDA00264433 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4711F79B1AEC2ED900264433;
+					};
+				};
+			};
+			buildConfigurationList = 4711F7971AEC2ED900264433 /* Build configuration list for PBXProject "DabbletMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4711F7931AEC2ED900264433;
+			productRefGroup = 4711F79D1AEC2ED900264433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4711F79B1AEC2ED900264433 /* DabbletMenu */,
+				4711F7B01AEC2EDA00264433 /* DabbletMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4711F79A1AEC2ED900264433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4711F7A71AEC2ED900264433 /* Main.storyboard in Resources */,
+				4711F7AC1AEC2EDA00264433 /* LaunchScreen.xib in Resources */,
+				4711F7A91AEC2ED900264433 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4711F7AF1AEC2EDA00264433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4711F7981AEC2ED900264433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4711F7A41AEC2ED900264433 /* ViewController.swift in Sources */,
+				4711F7A21AEC2ED900264433 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4711F7AD1AEC2EDA00264433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4711F7B81AEC2EDA00264433 /* DabbletMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4711F7B31AEC2EDA00264433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4711F79B1AEC2ED900264433 /* DabbletMenu */;
+			targetProxy = 4711F7B21AEC2EDA00264433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4711F7A51AEC2ED900264433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4711F7A61AEC2ED900264433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4711F7AA1AEC2EDA00264433 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4711F7AB1AEC2EDA00264433 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4711F7B91AEC2EDA00264433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4711F7BA1AEC2EDA00264433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4711F7BC1AEC2EDA00264433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DabbletMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4711F7BD1AEC2EDA00264433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DabbletMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4711F7BF1AEC2EDA00264433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DabbletMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DabbletMenu.app/DabbletMenu";
+			};
+			name = Debug;
+		};
+		4711F7C01AEC2EDA00264433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DabbletMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DabbletMenu.app/DabbletMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4711F7971AEC2ED900264433 /* Build configuration list for PBXProject "DabbletMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4711F7B91AEC2EDA00264433 /* Debug */,
+				4711F7BA1AEC2EDA00264433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4711F7BB1AEC2EDA00264433 /* Build configuration list for PBXNativeTarget "DabbletMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4711F7BC1AEC2EDA00264433 /* Debug */,
+				4711F7BD1AEC2EDA00264433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4711F7BE1AEC2EDA00264433 /* Build configuration list for PBXNativeTarget "DabbletMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4711F7BF1AEC2EDA00264433 /* Debug */,
+				4711F7C01AEC2EDA00264433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4711F7941AEC2ED900264433 /* Project object */;
+}
